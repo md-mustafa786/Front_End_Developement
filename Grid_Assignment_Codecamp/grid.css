@@ -1,0 +1,119 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    border: 4px solid red;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0D0D19;
+    color: white;
+ }
+ main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+
+ }
+
+.imgContainer{
+    height: 100vh;
+}
+
+.imgContainer img{
+      width: 100%;
+      width: 100%;
+}
+
+.mainHeadingContainer{
+    height: 30vh;
+    display: grid;
+    background-color: red;
+   align-items: center;
+   text-align: center;
+   color: orangered;
+}
+
+.mainHeadingContainer h1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.mainHeadingContainer p{
+    font-size: 2rem;
+}
+
+ div{
+    /* border: 2px solid green; */
+    height: 10vh;
+ }
+ .imgContainer, .mainHeadingContainer, .subContainer, .content1, .content2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+ }
+
+ .subContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+ }
+
+.subContainer div{
+    padding: 2rem;
+    display: grid;
+    align-items: center;
+}
+
+ .subContainer div p{
+   font-size: 1.3rem;
+ }
+
+ .content1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: auto;
+    font-size: 1.5rem;
+ }
+
+ .content1 div{
+    text-align: justify;
+    padding: 2rem;
+    border: 2px solid red;
+    height: auto;
+ }
+ .content2{
+    display: grid;
+    grid-template-columns: 33.33% 66.66%;
+    height: auto;
+ }
+
+ .content2 div{
+    border: 2px solid blue;
+    padding: 2rem;
+    height: auto;
+ }
+
+ .content2 div h1, .content2 div h2{
+    color: rgb(0,166,255);
+ }
+
+
+
+ .content2 div p{
+    font-size: 1.2rem;
+ }
+
+ .content2_subContent{
+    display: grid;
+    grid-template-rows: auto auto auto;
+ }
+
+ .content2_subContent div{
+    border: 3px solid yellow;
+ }
+
+ .content2_subContent2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+ }
