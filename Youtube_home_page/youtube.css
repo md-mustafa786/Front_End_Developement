@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* border: 4px solid rebeccapurple; */
+    height: 100vh;
+    width: 100vw;
+}
+
+
+header{
+    /* border: 3px solid yellow; */
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_section{
+    /* border: 3px solid green; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.div1{
+    /* border: 2px solid red; */
+    gap: 1.8rem;
+    width: 20%;
+}
+
+.bars{
+    /* border: 2px solid green; */
+    padding: 1rem;
+}
+.bars i{
+    font-size: 1.5rem;
+}
+
+.logo img{
+       height: 100%;
+       width: 50%;
+       /* border: 2px solid green; */
+}
+
+.div2{
+    /* border: 2px solid yellow; */
+    width: 70%;
+    padding-left: 5rem;
+}
+.search_box{
+    border:4px #e4e4e4;
+    height: 75%;
+    width: 75%;
+    border-radius: 3px;
+}
+.search_box input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #717171;
+}
+.search_icon{
+    height: 75%;
+    width: 7%;
+    border: 1px solid #717171;
+    border-left: none;
+}
+
+.mic{
+    height:75% ;
+    border-radius: 50%;
+    width: 5%;
+    border: none;
+    margin-left: 0.5rem;
+}
+
+.div3{
+    width: 10%;
+}
+
+.dots i{
+     font-size: 1.5rem;
+}
+.signIn{
+    height: 65%;
+    width: 70%;
+    border: 2px solid rgba(0, 0, 255, 0.596);
+    display: flex;
+    align-items: center;
+   margin-left: 20px;
+}
+.user_logo{
+    padding: 10px;
+}
+
+.user_logo i{
+    color: blue;
+}
+
+
+main{
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+
+}
+.sideBar{
+    width: 15%;
+    height: 100%;
+    /* border: 2px solid orangered; */
+}
+
+.mainContainer{
+    width: 85%;
+    height: 100%;
+    /* border: 2px solid purple; */
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+
+.signIn{
+    border: none;
+    height: 5.5%;
+    width: 80%;
+}
+.para p{
+    /* border: 2px solid green; */
+    color: black;
+    font-weight: 500;
+}
+.sign{
+    border: 1px solid blue;
+    color: blue;
+   width: 80%;
+   height: 100%;
+   font-weight: 600;
+}
+.sign i{
+    /* border:  2px solid yellow; */
+   font-size: 1.2rem;
+
+}
+.sideBar{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.sideBar div{
+    padding: 0% 7% 0% 7%;
+}
+.explore{
+    color:#717171;
+}
+.sideBar div i{
+    padding-right: 8%;
+}
+
+.topContainer{
+    /* border: 3px solid green; */
+    height: 15%;
+    width: 100%;    
+    padding: 1px 0px 1px 0px;
+    display: flex;
+    align-items: center;    
+}
+.podcastContainer{    
+    height: 80%;
+    width: 6%;    
+    background-color: #3a3939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    border: none;    
+}
+.topContainer i{
+    font-size: 300%;
+    color: #fff;
+}
+.podcastWord{
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+    font-size: larger;
+}
+
+.heading{
+    display :flex;
+    justify-content: space-between;
+}
+
+.show{
+    color: blue;
+    font-size: 0.8rem;
+    padding-right: 10px;
+}
+
+.footerContainer{  
+    /* border: 2px solid red;   */
+    height: 81%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.footerContainer .divContainer{
+    height: 50%;
+    width: 20%;    
+}
+.divContainer{
+    padding: 2px;
+}
+.imgContainer{
+    height: 60%;
+    width: 100%;
+    /* border: 3px solid orange; */
+}
+.imgContainer img{
+    height: 100%;
+    width: 100%;
+}
+.mainContent{
+    font-weight: 550;
+}
+.notMainContainer,.pContainer{
+    color: #717171;
+}
